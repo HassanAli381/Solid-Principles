@@ -18,7 +18,7 @@ public class Invoice {
     // getters and setters ...
 
     public double calculateTotal() {
-        double price = ((book.price - book.price * discountRate) * this.quantity);
+        double price = ((book.getPrice() - book.getPrice() * discountRate) * this.quantity);
         return price * (1 + taxRate);
     }
 

@@ -1,11 +1,11 @@
 package SingleResponsibility.BadExamples.Invoice;
 
 public class Book {
-    String name;
-    String authorName;
-    int  year;
-    int price;
-    String isbn;
+    private String name;
+    private String authorName;
+    private int  year;
+    private int price;
+    private String isbn;
 
     public Book(String name, String authorName, int year, int price, String isbn) {
         this.name = name;
