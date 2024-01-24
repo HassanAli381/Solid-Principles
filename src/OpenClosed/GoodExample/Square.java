@@ -1,7 +1,6 @@
 package OpenClosed.GoodExample;
 
 public class Square extends Shape{
-
     private int side;
 
     // constructors, setters and getters...

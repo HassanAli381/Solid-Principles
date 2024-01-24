@@ -1,7 +1,6 @@
 package OpenClosed.GoodExample;
 
 public class Rectangle extends Shape{
-
     private int width;
     private int height;
 
@@ -9,7 +8,7 @@ public class Rectangle extends Shape{
 
     @Override
     void draw() {
-        // printing Rectangle
-        System.out.println("Rectangle printed successfully");
+        // Drawing Rectangle
+        System.out.println("Rectangle drawn successfully");
     }
 }
